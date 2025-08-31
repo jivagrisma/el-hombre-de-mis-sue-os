@@ -1,0 +1,489 @@
+/* Responsive Design - Estilo Medium */
+
+/* Tablets - 768px y menos */
+@media (max-width: 768px) {
+    :root {
+        --spacing-xxl: 2.5rem;
+        --spacing-xl: 2rem;
+        --spacing-lg: 1.5rem;
+    }
+    
+    /* Navegación en tablets */
+    .nav-container {
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+    
+    .site-title {
+        font-size: 1.3rem;
+    }
+    
+    .nav-links {
+        gap: var(--spacing-md);
+    }
+    
+    .nav-link {
+        font-size: 0.85rem;
+        padding: var(--spacing-xs);
+    }
+    
+    /* Contenido del artículo */
+    .article-container {
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+    
+    .article-title {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    .article-subtitle {
+        font-size: 1.25rem;
+    }
+    
+    .article-meta {
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+    
+    .article-meta span:not(:last-child)::after {
+        display: none;
+    }
+    
+    /* Tipografía responsive */
+    p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+    
+    .opening-paragraph {
+        font-size: 1.25rem !important;
+        padding: 0 var(--spacing-sm);
+    }
+    
+    .quote-paragraph {
+        font-size: 1.2rem;
+        padding: var(--spacing-md);
+        margin: var(--spacing-lg) 0;
+    }
+    
+    .quote-paragraph::before {
+        font-size: 2.5rem;
+        top: -5px;
+        left: 10px;
+    }
+    
+    .emphasis-paragraph {
+        font-size: 1.15rem;
+        padding: var(--spacing-md);
+    }
+    
+    .closing-paragraph,
+    .final-paragraph {
+        font-size: 1.15rem;
+        padding: 0 var(--spacing-sm);
+    }
+    
+    /* Efectos hover deshabilitados en tablets */
+    .content-section:hover {
+        background-color: transparent;
+        transform: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    p:hover {
+        transform: none;
+    }
+}
+
+/* Móviles - 480px y menos */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    /* Ajustar espaciado para móviles */
+    :root {
+        --spacing-xxl: 2rem;
+        --spacing-xl: 1.5rem;
+        --spacing-lg: 1rem;
+        --spacing-md: 0.75rem;
+    }
+    
+    /* Navegación móvil */
+    .nav-container {
+        padding: var(--spacing-sm);
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        align-items: center;
+    }
+    
+    .site-title {
+        font-size: 1.2rem;
+        margin-bottom: var(--spacing-xs);
+    }
+    
+    .nav-links {
+        gap: var(--spacing-sm);
+        justify-content: center;
+    }
+    
+    .nav-link {
+        font-size: 0.8rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+    
+    /* Contenido móvil */
+    .main-content {
+        margin-top: 120px; /* Mayor margen por header más alto */
+        padding-top: var(--spacing-lg); /* Espacio adicional de seguridad */
+    }
+    
+    .article-container {
+        padding: var(--spacing-xl) var(--spacing-sm) var(--spacing-lg) var(--spacing-sm);
+    }
+    
+    .article-header {
+        margin-bottom: var(--spacing-xl);
+        padding-bottom: var(--spacing-lg);
+    }
+    
+    .article-title {
+        font-size: 1.8rem;
+        line-height: 1.1;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .article-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    /* Tipografía móvil */
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .opening-paragraph {
+        font-size: 1.15rem !important;
+        line-height: 1.4 !important;
+        padding: 0;
+        margin-bottom: var(--spacing-lg) !important;
+    }
+    
+    .quote-paragraph {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        padding: var(--spacing-sm);
+        margin: var(--spacing-md) 0;
+        border-left-width: 3px;
+        border-radius: 0 6px 6px 0;
+    }
+    
+    .quote-paragraph::before {
+        font-size: 2rem;
+        top: -3px;
+        left: 8px;
+    }
+    
+    .emphasis-paragraph {
+        font-size: 1.05rem;
+        padding: var(--spacing-sm);
+        margin: var(--spacing-md) 0;
+    }
+    
+    .closing-paragraph {
+        font-size: 1.1rem;
+        margin: var(--spacing-lg) 0;
+        padding: 0;
+    }
+    
+    .final-paragraph {
+        font-size: 1.15rem;
+        margin: var(--spacing-lg) 0;
+        padding: 0;
+    }
+    
+    /* Sección del autor móvil */
+    .author-section {
+        margin-top: var(--spacing-xl);
+        padding-top: var(--spacing-lg);
+    }
+    
+    .author-signature {
+        padding: var(--spacing-md);
+    }
+    
+    .author-name {
+        font-size: 1.3rem;
+    }
+    
+    .author-location {
+        font-size: 0.9rem;
+    }
+    
+    .author-date {
+        font-size: 0.8rem;
+    }
+    
+    /* Footer móvil */
+    .site-footer {
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+    
+    .footer-content p {
+        font-size: 0.8rem;
+    }
+    
+    /* Barra de progreso más visible en móvil */
+    .reading-progress {
+        height: 4px;
+    }
+}
+
+/* Móviles muy pequeños - 320px y menos */
+@media (max-width: 320px) {
+    :root {
+        --spacing-xxl: 1.5rem;
+        --spacing-xl: 1rem;
+        --spacing-lg: 0.75rem;
+    }
+    
+    .article-container {
+        padding: var(--spacing-lg) var(--spacing-xs) var(--spacing-md) var(--spacing-xs);
+    }
+    
+    .main-content {
+        margin-top: 130px; /* Aún más margen para pantallas muy pequeñas */
+        padding-top: var(--spacing-md);
+    }
+    
+    .article-title {
+        font-size: 1.6rem;
+    }
+    
+    .article-subtitle {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    
+    .opening-paragraph {
+        font-size: 1.1rem !important;
+    }
+    
+    .quote-paragraph {
+        font-size: 1rem;
+        padding: var(--spacing-xs);
+    }
+    
+    .nav-links {
+        flex-wrap: wrap;
+    }
+}
+
+/* Tablets horizontales y laptops pequeños - 1024px y menos */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .article-container {
+        max-width: 600px;
+        padding: var(--spacing-xxl) var(--spacing-lg);
+    }
+    
+    .nav-container {
+        max-width: 900px;
+    }
+}
+
+/* Pantallas grandes - 1200px y más */
+@media (min-width: 1200px) {
+    .article-title {
+        font-size: 3.5rem;
+    }
+    
+    .article-subtitle {
+        font-size: 1.75rem;
+    }
+    
+    .opening-paragraph {
+        font-size: 1.5rem !important;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.9;
+    }
+    
+    .quote-paragraph {
+        font-size: 1.4rem;
+        padding: var(--spacing-xl);
+    }
+    
+    .emphasis-paragraph {
+        font-size: 1.3rem;
+    }
+}
+
+/* Orientación landscape en móviles */
+@media (max-height: 500px) and (orientation: landscape) {
+    .main-content {
+        margin-top: 60px;
+    }
+    
+    .site-header {
+        padding: var(--spacing-xs) 0;
+    }
+    
+    .nav-container {
+        padding: var(--spacing-xs) var(--spacing-md);
+    }
+    
+    .article-container {
+        padding-top: var(--spacing-lg);
+    }
+    
+    .article-header {
+        margin-bottom: var(--spacing-lg);
+        padding-bottom: var(--spacing-md);
+    }
+    
+    .article-title {
+        font-size: 1.5rem;
+    }
+    
+    .article-subtitle {
+        font-size: 1rem;
+        margin-bottom: var(--spacing-md);
+    }
+}
+
+/* Mejoras para pantallas de alta densidad */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .reading-progress-fill {
+        box-shadow: 0 0 20px rgba(26, 137, 23, 0.4);
+    }
+    
+    .quote-paragraph {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    
+    .author-signature {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Ajustes para modo oscuro del sistema */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text-primary: #E2E8F0;
+        --color-text-secondary: #A0AEC0;
+        --color-text-light: #718096;
+        --color-background: #1A202C;
+        --color-border: #2D3748;
+        --color-hover: #2D3748;
+        --color-quote: #CBD5E0;
+    }
+    
+    .site-header {
+        background-color: rgba(26, 32, 44, 0.95);
+    }
+    
+    .quote-paragraph {
+        background: linear-gradient(135deg, #2D3748 0%, #4A5568 100%);
+        color: var(--color-quote);
+    }
+    
+    .emphasis-paragraph {
+        background: var(--color-hover);
+    }
+    
+    .author-signature {
+        background: var(--color-hover);
+    }
+    
+    .site-footer {
+        background-color: var(--color-hover);
+    }
+}
+
+/* Ajustes para contraste alto */
+@media (prefers-contrast: high) {
+    :root {
+        --color-text-primary: #000000;
+        --color-text-secondary: #333333;
+        --color-border: #000000;
+        --color-accent: #006600;
+    }
+    
+    .quote-paragraph {
+        border-left-color: var(--color-accent);
+        border-left-width: 5px;
+    }
+    
+    .nav-link.active::after {
+        height: 3px;
+        background-color: var(--color-accent);
+    }
+}
+
+/* Print styles */
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    .site-header,
+    .nav-links,
+    .reading-progress,
+    .site-footer {
+        display: none !important;
+    }
+    
+    .main-content {
+        margin-top: 0;
+    }
+    
+    .article-container {
+        max-width: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .article-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .article-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    p {
+        font-size: 12pt;
+        line-height: 1.5;
+    }
+    
+    .quote-paragraph {
+        border-left: 3px solid #000;
+        background: none;
+        font-style: italic;
+        page-break-inside: avoid;
+    }
+    
+    .content-section {
+        page-break-inside: avoid;
+    }
+    
+    .author-section {
+        page-break-before: always;
+    }
+}
