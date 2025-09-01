@@ -160,51 +160,56 @@
         margin-bottom: var(--spacing-lg);
     }
     
-    /* Tipografía móvil */
+    /* Tipografía móvil - Tamaño Medium.com */
     p {
-        font-size: 1rem;
-        line-height: 1.6;
-        margin-bottom: var(--spacing-md);
+        font-size: 1.25rem;
+        line-height: 1.7;
+        margin-bottom: var(--spacing-lg);
+        font-weight: 400;
     }
     
     .opening-paragraph {
-        font-size: 1.15rem !important;
-        line-height: 1.4 !important;
+        font-size: 1.4rem !important;
+        line-height: 1.5 !important;
         padding: 0;
-        margin-bottom: var(--spacing-lg) !important;
+        margin-bottom: var(--spacing-xl) !important;
+        font-weight: 600;
     }
     
     .quote-paragraph {
-        font-size: 1.1rem;
-        line-height: 1.5;
-        padding: var(--spacing-sm);
-        margin: var(--spacing-md) 0;
-        border-left-width: 3px;
-        border-radius: 0 6px 6px 0;
+        font-size: 1.3rem;
+        line-height: 1.6;
+        padding: var(--spacing-md);
+        margin: var(--spacing-lg) 0;
+        border-left-width: 4px;
+        border-radius: 0 8px 8px 0;
     }
     
     .quote-paragraph::before {
-        font-size: 2rem;
-        top: -3px;
-        left: 8px;
+        font-size: 2.5rem;
+        top: -5px;
+        left: 12px;
     }
     
     .emphasis-paragraph {
-        font-size: 1.05rem;
-        padding: var(--spacing-sm);
-        margin: var(--spacing-md) 0;
+        font-size: 1.2rem;
+        padding: var(--spacing-md);
+        margin: var(--spacing-lg) 0;
+        font-weight: 600;
     }
     
     .closing-paragraph {
-        font-size: 1.1rem;
-        margin: var(--spacing-lg) 0;
+        font-size: 1.3rem;
+        margin: var(--spacing-xl) 0;
         padding: 0;
+        font-weight: 600;
     }
     
     .final-paragraph {
-        font-size: 1.15rem;
-        margin: var(--spacing-lg) 0;
+        font-size: 1.35rem;
+        margin: var(--spacing-xl) 0;
         padding: 0;
+        font-weight: 600;
     }
     
     /* Sección del autor móvil */
@@ -270,17 +275,17 @@
     }
     
     p {
-        font-size: 0.95rem;
-        line-height: 1.5;
+        font-size: 1.125rem;
+        line-height: 1.6;
     }
     
     .opening-paragraph {
-        font-size: 1.1rem !important;
+        font-size: 1.25rem !important;
     }
     
     .quote-paragraph {
-        font-size: 1rem;
-        padding: var(--spacing-xs);
+        font-size: 1.15rem;
+        padding: var(--spacing-sm);
     }
     
     .nav-links {
