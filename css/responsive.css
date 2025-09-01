@@ -194,7 +194,7 @@
     .emphasis-paragraph {
         font-size: 1.2rem;
         padding: var(--spacing-md);
-        margin: var(--spacing-lg) 0;
+        margin: var(--spacing-xxl) 0;
         font-weight: 600;
     }
     
