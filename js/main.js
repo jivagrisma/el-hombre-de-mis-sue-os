@@ -9,9 +9,32 @@ document.addEventListener('DOMContentLoaded', function() {
     initScrollAnimations();
     initTypewriterEffect();
     initParallaxEffect();
+    handleDirectAnchorLink();
     
     console.log('🌙 El Hombre de mis Sueños - Página cargada');
 });
+
+/**
+ * Maneja el scroll a un ancla si la URL la contiene al cargar
+ */
+function handleDirectAnchorLink() {
+    const hash = window.location.hash;
+    if (hash) {
+        const targetElement = document.querySelector(hash);
+        if (targetElement) {
+            setTimeout(() => {
+                const headerOffset = 100;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }, 500); // Pequeño delay para asegurar que todo esté cargado
+        }
+    }
+}
 
 /**
  * Navegación con scroll suave
