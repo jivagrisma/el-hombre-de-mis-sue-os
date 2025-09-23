@@ -1,0 +1,13 @@
+Recuerdo que en el sueño era de noche, y logré ver la luna, tengo una sensación de que en el sueño había luna llena, pero al mismo tiempo no tengo la certeza. 
+Me encontraba en un negocio (restaurante) allí estaba mi suegro, un hombre robusto, de estatura baja y sombrero. En el sueño, el suegro era el dueño del negocio. (Ahora que reflexiono sobre el sueño), aquel lugar me recordaba el negocio que tuvimos mi hermanos y mi madre con mi padre, o más bien era un medio de sustento de la familia). Recuerdo que en la vigilia, mi rol allí era precisamente ser el administrador o recepcionista y mesero. Mi padre salía a vender los productos en la calle y en el negocio se atendían a los clientes de la zona y visitantes.
+
+Volviendo al sueño, el suegro me dijo algo que no logré comprender hasta que el se dirigió hacia donde una mujer y una niña, daba la sensación de que era su pareja e hija, sin, embargo, la mujer no se me pareció a su esposa de la vigilia, aunque la verdad no recuerdo si rostro exacto, pero mi sensación era que ellas eran una segunda familia. De pronto el suegro se llevó a la boca un perro caliente, en ese momento pensé que él me había dicho que asumiera o le prestará el dinero para pagar la cuenta del restaurante. 
+
+Después hubo una transición, me encontraba caminando por una carretera y en la curva lograba ver una planicie con un río, enfoque mi mirada siguiendo el río y logré percatarme que el río estaba dirigido por unos canales de cemento a los lados, como encausado (cauces). El río estaba limpio y sereno. 
+
+Seguí caminando y rápidamente me encontraba en la planicie, allí me encontré con un amigo y ex socio Fernando, un hombre de unos 60 años de edad, en la vigilia nos había dado la oportunidad de construir con su apoyo las bases de un emprendimiento agricola que al final no se logró desarrollar por completo. 
+En la vigilia recuerdo sus palabras: mis proyectos son a mediano y largo plazo: 5 años en adelante.
+
+Me llamó la atención que tenía rectángulos de hierba empacada, los cuales eran transportados por una balsa sencilla en el río que en ese momento estaba controlando y dirigido por canales (cauces). Me maraville en ese momento, viendo como en el pasado lo que antes había Sido un problema (exceso de hierba), lo que algunos llaman rastrojo, se había vuelto una fuente de ingresos. 
+
+Le ayude a Fernando a colocar los paquetes de hierba o helechos en la balsa, que al final llegaban al sitio de destino, sin ningún esfuerzo.
