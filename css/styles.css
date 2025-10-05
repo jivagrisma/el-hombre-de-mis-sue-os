@@ -548,3 +548,26 @@ p {
         scroll-behavior: auto !important;
     }
 }
+/* Estilos para las imágenes de los cuentos */
+.article-content figure {
+    margin: var(--spacing-xl) 0;
+    width: 100%;
+}
+
+.article-content figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow-medium);
+}
+
+.article-content figure figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    margin-top: var(--spacing-sm);
+    font-style: italic;
+    font-family: var(--font-sans);
+}
