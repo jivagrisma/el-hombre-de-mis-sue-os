@@ -13,6 +13,16 @@
         "-y",
         "@modelcontextprotocol/server-memory"
       ]
+    },
+    "tavily": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "tavily-mcp@0.2.3"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "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"
+      }
     }
   }
 }
