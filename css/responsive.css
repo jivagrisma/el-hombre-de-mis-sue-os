@@ -334,6 +334,15 @@
     }
 }
 
+/* Ajuste específico para imágenes en pantallas grandes */
+@media (min-width: 769px) {
+    .article-content figure {
+        max-width: var(--max-width-content);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* Orientación landscape en móviles */
 @media (max-height: 500px) and (orientation: landscape) {
     .main-content {

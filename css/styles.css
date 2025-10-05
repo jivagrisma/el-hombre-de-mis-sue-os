@@ -550,15 +550,15 @@ p {
 }
 /* Estilos para las imágenes de los cuentos */
 .article-content figure {
-    margin: var(--spacing-xl) 0;
+    margin: var(--spacing-xl) auto;
     width: 100%;
+    max-width: var(--max-width-content);
 }
 
 .article-content figure img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
     border-radius: 8px;
     box-shadow: var(--shadow-medium);
 }
