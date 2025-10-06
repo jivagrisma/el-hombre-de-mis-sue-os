@@ -1,0 +1,24 @@
+
+Contexto: En la semana del 30 de septiembre al 5 de octubre, a un día de la luna llena de octubre del 2025.
+Está semana se cumplían 24 años del asesinato de mi primo hermano (el primer nieto del linaje materna) en sus 15 años. La fecha fue un 29 se septiembre. 
+En lo laboral: Estuve trabajando en completar el desarrollo y despliegue en producción de la plataforma waia: un marketplace de agentes de IA en WhatsApp para que las personas contraten sus servicios como contratando un empleado para determinada tarea. 
+También avance con las pruebas de integración entre el servidor de la empresa que funde hace 6 años con tres socios y el servidor de Bancolombia. Allí el equipo de Bancolombia notificó que fue un éxito las pruebas y después enviaron un contrato de protuccion lo que implica que estamos a días de salir al mercado con una solución tangible y conectado al principal banco de Colombia. Siempre digo no es lo mismo trabajar para el banco que trabajar con la infraestructura del banco. Después de esta noticia, mi mente y cuerpo presenció un desaliento, una reacción muy ambivalente al estado de euforia que uno espera en estás situaciones. 
+
+Está semana también estuve compartiendo en un cumpleaños el cuál me cruce por coincidencia cuando iba a comprar unos buñuelos para compartir con mi pareja. Entre el trayecto de nuestra casa y el parque está la casa de una mujer amiga y conocida a quien respeto mucho y suelo resonar desde mi espíritu con ella, porque en un momento de mi vida me dió un consejo que es como mantra al día de hoy: si es una mujer, es solo una. En su casa estaban celebrando el cumpleaños de una amiga de ambos, con quién también tuve una relación cercana y con intimidad, ella mayor que yo por lo menos 13 años. 
+Lo curioso fue que yo era el único hombre en esta reunión, habían seis mujeres. Compartimos la mesa, el banquete de celebración: pescado y vino. 
+
+Sueño 6 de octubre del 2025
+El sueño me ubicó subiendo unas escaleras de piedra, las misma escalas del barrio donde crecí y donde mis padres construyeron su casa en la vigilia.
+Un olor familiar envolvió mi ascenso, en una de las escalas estaba sentado Fernando, un hombre de 72 años y padre de mi socio. Se encontraba hablando con alguien más, mi corazón empezó a latir más fuerte, y el aire volvió a traer ese olor familiar tan distintivo que en esta ocasión reconocí. 
+Era mi padre, mi corazón saltó de felicidad al verlo nuevamente. Iba para la casa de mi madre o mejor dicho iba a ver a mi madre. 
+De pronto una transición me ubicó en una atmósfera semi oscura. Me encontraba de frente a la ventana de una casa mirando hacia afuera. Había cierta sensación de espera o ansiedad.
+Detrás de la ventana, en el interior de la casa había una habitación de paredes blancas, con una cama con sabanas del mismo color. Me quedé mirando fijamente hacia afuera y volví a sentir aquel olor, cuando giré mi cabeza, estaba mi padre (quien ya hace 17 meses se había suicidado). 
+Tenía el mismo rostro y una gentileza que pocos conocieron y que afortunadamente pude gozar de ella. Le hice la misma pregunta que en otros sueños le había hecho, aunque está tenía a un personaje en medio: 
+¿Quién lo hizo?, era una especie de indagación del por qué lo había hecho. 
+Y su rostro puso una expresión que generaba respeto, era de una seriedad de alguien con una firmeza en sus actos. 
+Giro la cabeza y en un gesto de desaprobación me dijo que no. 
+Lo más estraño era que en el sueño yo preguntaba por el asesino, como si mi padre hubiese sido asesinado por alguien más. 
+
+Después me di cuenta que cada cierto tiempo, a los seres que han tracendido la vida y que se encuentran en otra dimensión, se les permite un día para visitar a sus seres queridos y no se hasta que punto a los no queridos. 
+
+De pronto un ventarrón sacudió las ventanas y cuando me percaté mi padre salió de la casa con cierta urgencia, un pasillo de corredor se extendió hasta el infinito, antes de seguir sus pasos apareció de la nada al lado de la ventana mi hermano menor, Juan Álvaro. Pero no era el hombre adulto del presente, era un niño de ocho años.  Lo tomé del brazo y salimos rápidamente al encuentro a dónde se dirigía mi padre, de repente el corredor se alargó tanto que cada vez era porque ya no era solo mi padre, mi madre también estaba allí, junto a él, cogidos de la mano. Y una bifurcación se hizo en aquel corredor, ya eran dos caminos, en dónde el niño Juan Álvaro salió corriendo hacia el otro camino, presencié el dilema de la elección, o mis padres o mi hermano Juan Álvaro, la decisión fue inminente. Elegí a mi hermano Juan Álvaro. Y seguí su camino, ahora yo seguía sus pasos.
