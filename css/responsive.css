@@ -17,8 +17,27 @@
         font-size: 1.3rem;
     }
     
+    .hamburger-menu {
+        display: block;
+    }
+
     .nav-links {
-        gap: var(--spacing-md);
+       position: fixed;
+       top: 70px; /* Altura del header */
+       left: -100%;
+       width: 80%;
+       height: calc(100vh - 70px);
+       background-color: var(--color-background);
+       flex-direction: column;
+       align-items: center;
+       padding-top: var(--spacing-xl);
+       gap: var(--spacing-xl);
+       transition: left 0.3s ease;
+       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.active {
+        left: 0;
     }
     
     .nav-link {

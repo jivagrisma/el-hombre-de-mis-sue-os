@@ -471,3 +471,28 @@ console.log(`
     
     - El Hombre de mis Sueños
 `);
+function initHamburgerMenu() {
+    const hamburger = document.querySelector('.hamburger-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Cerrar menú al hacer clic en un enlace
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+    }
+}
+
+// Añadir al DOMContentLoaded
+document.addEventListener('DOMContentLoaded', function() {
+    initHamburgerMenu();
+    // ... el resto de tus funciones
+});

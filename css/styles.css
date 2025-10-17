@@ -571,3 +571,21 @@ p {
     font-style: italic;
     font-family: var(--font-sans);
 }
+/* Estilos para el Menú de Hamburguesa */
+.hamburger-menu {
+    display: none; /* Oculto por defecto en escritorio */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1001;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-text-primary);
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
