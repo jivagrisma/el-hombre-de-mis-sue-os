@@ -123,6 +123,23 @@ body {
 .nav-links {
     display: flex;
     gap: var(--spacing-lg);
+    /* Cambios para el menú hamburguesa */
+    position: fixed;
+    top: 0;
+    right: -350px; /* Oculto fuera de la pantalla */
+    width: 300px;
+    height: 100vh;
+    padding-top: 100px;
+    background-color: var(--color-background);
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: var(--spacing-xl);
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    transition: right 0.4s ease;
+}
+
+.nav-links.active {
+    right: 0;
 }
 
 .nav-link {
@@ -573,7 +590,7 @@ p {
 }
 /* Estilos para el Menú de Hamburguesa */
 .hamburger-menu {
-    display: none; /* Oculto por defecto en escritorio */
+    display: block; /* Siempre visible */
     background: none;
     border: none;
     cursor: pointer;
