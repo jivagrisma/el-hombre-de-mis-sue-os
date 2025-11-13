@@ -25,6 +25,8 @@ En el sueño, discutíamos, pero nuestras palabras eran pajaros que se desvanec�
 
 Comprendí entonces que debía escapar de aquel lugar, que la jaula no era de barrotes, sino de reflejos.
 
+ESCENA 1: LA JAULA DE REFLEJOS .png
+
 ### **Capítulo II: EL SONIDO DE LAS CADENAS**
 
 Al salir del pabellon donde descansaban los muertos, sentí que el suelo se desvanecía bajo mis pies.  Era como si el cementerio tuviera un sótano, un lugar oscuro detrás de él. Un solar abandonado. Sin luces. Sin claridad.
@@ -39,6 +41,8 @@ Caminé con cuidado, porque en la oscuridad uno siempre camina así. Y entonces 
  Mi miedo se transformó en una especie de calma. No era paz, pero sí un reconocimiento. Estos instintos encadenados —la agresión, la competencia, la protección que había reprimido— no eran enemigos. Solo estaban esperando que yo los mirara a los ojos y dijera: "Te veo. Entiendo que estás aquí. Y juntos encontraremos otro camino."
 
 
+ESCENA 2: LOS GUARDIANES ENCADENADOS.png
+
 ### **Capítulo III: EL BARRANCO Y LAS RAMAS FILOSAS**
 
 El siguiente movimiento fue hacia arriba.
@@ -51,6 +55,7 @@ El barranco parecía no tener fin. Pero continuaba, paciente, observante. Aprend
 
 A mitad del camino, sentí una presencia. No era visible, pero la sentía. Como si alguien me observara.
 
+ESCENA 3: EL ASCENSO PACIENTE.png
 
 ### **Capítulo IV: LA CUMBRE, EL PADRE Y LA REVELACIÓN**
 
@@ -66,6 +71,9 @@ El sol quema", me advirtió, con una voz que era a la vez suave y firme. "Pero e
 
 Y entonces, sentí las alas nacer en mi espalda. No eran de cera y plumas, sino de conocimiento y propósito. 
 
+
+ESCENA 4: EL ENCUENTRO EN LA CUMBRE.png
+
 ### **Capítulo V: El Nuevo Horizonte**
 
 Escuché el consejo de mi ánima, y volé con prudencia, sin alejarme demasiado de la tierra que me daba sustento. Y entonces, lo vi.
@@ -74,6 +82,9 @@ En el horizonte, más allá del cementerio y de la ciudadela de la razón, se ex
 
 Y supe que no estaba solo. En aquel nuevo mundo, me esperaba mis hermanos, mi futuro, el Ascanio que me guiaría hacia la fundación de mi propia Roma.
 
+
+
+ESCENA 5: LAS ALAS DEL PROPÓSITO.png
 ---
 
 ### **Epílogo: Tesis Narrativa**
@@ -103,3 +114,6 @@ Con este cuento, el vuelo se convierte en acto creador, no de huida ni de destru
 El mensaje central del sueño es:
 
 "Has integrado la herencia de tu linaje y ahora estás aprendiendo a crear con ella (construir tus propias alas). Estás listo para emprender un nuevo vuelo, pero debes escuchar tu intuición (el ánima) para evitar la caída. Tu tarea ahora no es escapar del pasado, sino transformar tu historia en las alas que te llevarán hacia un futuro de libertad y propósito."
+
+
+ESCENA 6: EL NUEVO HORIZONTE.png
