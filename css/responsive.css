@@ -44,6 +44,13 @@
         font-size: 0.85rem;
         padding: var(--spacing-xs);
     }
+
+    /* Mantener hover simple en móvil */
+    .nav-link:hover,
+    .nav-link.active {
+        transform: none;
+        box-shadow: none;
+    }
     
     /* Contenido del artículo */
     .article-container {
