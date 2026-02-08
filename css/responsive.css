@@ -1,5 +1,37 @@
 /* Responsive Design - Estilo Medium */
 
+/* Desktop - 769px y más - Mejorar visibilidad del menú hamburguesa */
+@media (min-width: 769px) {
+    /* Asegurar que los enlaces sean visibles y legibles en desktop */
+    .nav-link {
+        font-size: 1rem; /* Tamaño más grande para desktop */
+        padding: var(--spacing-sm) var(--spacing-md); /* Más padding */
+        color: #000000; /* Color más oscuro para mejor contraste */
+        line-height: 1.5;
+        white-space: nowrap; /* Evitar que el texto se divida */
+    }
+
+    /* Mejorar visibilidad en hover */
+    .nav-link:hover,
+    .nav-link.active {
+        color: var(--color-accent);
+        background-color: rgba(26, 137, 23, 0.15);
+        transform: translateY(-2px);
+        box-shadow: 0 2px 8px rgba(26, 137, 23, 0.2);
+    }
+
+    /* Asegurar que el menú sea visible */
+    .nav-links.active {
+        right: 0 !important;
+        z-index: 1001;
+    }
+
+    /* Ajustar el ancho del menú en desktop para mejor legibilidad */
+    .nav-links {
+        width: 350px !important;
+    }
+}
+
 /* Tablets - 768px y menos */
 @media (max-width: 768px) {
     :root {
