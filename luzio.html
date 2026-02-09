@@ -26,6 +26,24 @@
                 <h1 class="article-title">LUZÍO</h1>
                 <h2 class="article-subtitle">Tomado de los sueños de Iván, 13 de julio del 2025</h2>
             </header>
+
+            <!-- Botón Pensar con audio -->
+            <div class="think-button-container">
+                <button id="thinkButton" class="think-button" aria-label="Escuchar narración del capítulo">
+                    <span class="think-icon">🧠</span>
+                    <span class="think-text">Pensar</span>
+                </button>
+                <div id="thinkingAnimation" class="thinking-animation" hidden>
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <span class="thinking-text">Analizando el texto...</span>
+                </div>
+                <audio id="audioPlayer" preload="auto">
+                    <source src="luzio/LUZÍO_y_la_condena_de_saberlo_todo.m4a" type="audio/mp4">
+                </audio>
+            </div>
+
             <div class="article-content">
                 <section class="content-section fade-in">
                     <p class="quote-paragraph">

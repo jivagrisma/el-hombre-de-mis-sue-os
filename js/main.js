@@ -491,8 +491,71 @@ function initHamburgerMenu() {
     }
 }
 
+/**
+ * Inicializa el botón "Pensar" con animación y reproducción de audio
+ */
+function initThinkButton() {
+    const thinkButton = document.getElementById('thinkButton');
+    const thinkingAnimation = document.getElementById('thinkingAnimation');
+    const audioPlayer = document.getElementById('audioPlayer');
+
+    if (!thinkButton || !audioPlayer) return;
+
+    thinkButton.addEventListener('click', function() {
+        // Si ya está reproduciendo, pausar
+        if (!audioPlayer.paused) {
+            audioPlayer.pause();
+            audioPlayer.currentTime = 0;
+            thinkButton.classList.remove('playing');
+            thinkingAnimation.hidden = true;
+            thinkButton.querySelector('.think-text').textContent = 'Pensar';
+            return;
+        }
+
+        // Mostrar animación de "analizando"
+        thinkingAnimation.hidden = false;
+        thinkButton.disabled = true;
+        thinkButton.querySelector('.think-text').textContent = 'Analizando...';
+
+        // Simular tiempo de "análisis" (2 segundos)
+        setTimeout(() => {
+            // Ocultar animación
+            thinkingAnimation.hidden = true;
+            thinkButton.disabled = false;
+            thinkButton.classList.add('playing');
+            thinkButton.querySelector('.think-text').textContent = 'Reproduciendo...';
+
+            // Reproducir audio
+            audioPlayer.play()
+                .then(() => {
+                    console.log('🎧 Reproduciendo audio: LUZÍO_y_la_condena_de_saberlo_todo.m4a');
+                })
+                .catch(err => {
+                    console.error('Error al reproducir audio:', err);
+                    thinkButton.querySelector('.think-text').textContent = 'Error';
+                    thinkButton.classList.remove('playing');
+                });
+        }, 2000);
+
+        // Manejar fin de reproducción
+        audioPlayer.onended = function() {
+            thinkButton.classList.remove('playing');
+            thinkButton.querySelector('.think-text').textContent = 'Pensar';
+        };
+
+        // Manejar error de carga
+        audioPlayer.onerror = function() {
+            console.error('Error al cargar el archivo de audio');
+            thinkingAnimation.hidden = true;
+            thinkButton.disabled = false;
+            thinkButton.querySelector('.think-text').textContent = 'Error';
+        };
+    });
+}
+
 // Añadir al DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function() {
     initHamburgerMenu();
+    initThinkButton(); // Inicializar botón Pensar
     // ... el resto de tus funciones
 });

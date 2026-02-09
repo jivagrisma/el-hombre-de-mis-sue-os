@@ -608,3 +608,120 @@ p {
     margin: 5px 0;
     transition: all 0.3s ease;
 }
+
+/* Estilos para el botón Pensar */
+.think-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg);
+    margin: var(--spacing-xl) 0;
+    padding: var(--spacing-lg);
+    position: relative;
+}
+
+.think-button {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-xl);
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-background);
+    background: linear-gradient(135deg, var(--color-accent), #4CAF50);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    box-shadow: 0 4px 15px rgba(26, 137, 23, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.think-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(26, 137, 23, 0.4);
+}
+
+.think-button:active {
+    transform: translateY(0);
+}
+
+.think-button.playing {
+    background: linear-gradient(135deg, #4CAF50, var(--color-accent));
+    animation: pulse-button 2s ease-in-out infinite;
+}
+
+.think-icon {
+    font-size: 1.5rem;
+}
+
+.think-text {
+    letter-spacing: 0.05em;
+}
+
+/* Animación de "Analizando" */
+.thinking-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
+    position: relative;
+}
+
+.pulse-ring {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid var(--color-accent);
+    animation: pulse-ring 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.pulse-ring:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.pulse-ring:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.thinking-text {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+    margin-top: var(--spacing-lg);
+    animation: fade-text 2s ease-in-out infinite;
+}
+
+/* Animaciones */
+@keyframes pulse-button {
+    0%, 100% {
+        box-shadow: 0 4px 15px rgba(26, 137, 23, 0.3);
+    }
+    50% {
+        box-shadow: 0 6px 25px rgba(26, 137, 23, 0.5);
+    }
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: scale(0.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes fade-text {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
